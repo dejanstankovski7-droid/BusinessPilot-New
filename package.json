@@ -1,0 +1,12 @@
+{
+  "name": "businesspilot-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BusinessPilot AI MVP - AI marketing assistant for small businesses",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

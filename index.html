@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BusinessPilot AI helpt kleine ondernemingen sneller professionele marketingcontent maken.">
+  <title>BusinessPilot AI — Your business. Smarter with AI.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-icon">✦</span><span>BusinessPilot<span class="blue"> AI</span></span></a>
+    <nav><a href="#tools">AI tools</a><a href="#how">How it works</a><a href="#assistant" class="nav-cta">Try it free</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> AI tools built for small business</div>
+        <h1>Your business.<br><span>Smarter with AI.</span></h1>
+        <p class="hero-text">Spend less time staring at a blank page. Create marketing content, grow your online presence and move your business forward.</p>
+        <div class="hero-actions"><a class="primary-btn" href="#assistant">Try the AI assistant <span>→</span></a><a class="text-link" href="#tools">Explore the tools</a></div>
+        <div class="trust-line"><span>✓</span> Simple tools · Practical results · Made for entrepreneurs</div>
+      </div>
+      <div class="hero-art" aria-label="Abstract AI dashboard illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="glass-card main-card">
+          <div class="mini-top"><span class="mini-dot"></span><span class="mini-dot"></span><span class="mini-dot"></span><span class="mini-label">BUSINESSPILOT AI</span></div>
+          <div class="spark">✦</div><div class="mock-title">Your next idea,<br><b>ready to launch.</b></div>
+          <div class="mock-line long"></div><div class="mock-line"></div>
+          <div class="mock-result"><span>✧</span><div><b>Marketing copy generated</b><small>Ready for your audience</small></div><i>✓</i></div>
+        </div>
+        <div class="float-chip chip-top">✦ AI powered</div><div class="float-chip chip-bottom">↗ Made for growth</div>
+      </div>
+    </section>
+
+    <section class="tool-section" id="tools">
+      <div class="section-heading"><div class="eyebrow">THE TOOLKIT</div><h2>Everything starts with a good idea.</h2><p>One simple place for the tools that help your business move forward.</p></div>
+      <div class="tool-grid">
+        <article class="tool-card active-tool"><div class="tool-icon">✍</div><div class="tool-tag">AVAILABLE FIRST</div><h3>AI Marketing Assistant</h3><p>Write promotions, offers, ads and business messages in seconds.</p><a href="#assistant">Try the assistant →</a></article>
+        <article class="tool-card"><div class="tool-icon purple">▧</div><div class="tool-tag soon">COMING NEXT</div><h3>AI Website Assistant</h3><p>Plan your pages and create clear, persuasive website copy.</p><span class="muted">In development</span></article>
+        <article class="tool-card"><div class="tool-icon orange">◎</div><div class="tool-tag soon">COMING NEXT</div><h3>Social Media Creator</h3><p>Turn your ideas into posts and content plans for social media.</p><span class="muted">In development</span></article>
+        <article class="tool-card"><div class="tool-icon green">⌘</div><div class="tool-tag soon">COMING NEXT</div><h3>AI Business Assistant</h3><p>Organise ideas, customer replies and everyday business tasks.</p><span class="muted">In development</span></article>
+      </div>
+    </section>
+
+    <section class="assistant-section" id="assistant">
+      <div class="assistant-intro"><div class="eyebrow">MEET YOUR FIRST AI TOOL</div><h2>Good marketing.<br><span>Without the busywork.</span></h2><p>Tell BusinessPilot a little about your business and what you need. It will prepare a first draft you can adapt and use.</p><div class="benefit">✦ No marketing experience needed</div><div class="benefit">✦ Made for real small businesses</div><div class="benefit">✦ Get a useful first draft in moments</div></div>
+      <div class="assistant-panel">
+        <div class="panel-head"><div class="assistant-avatar">✦</div><div><b>BusinessPilot Marketing</b><small>Your AI marketing assistant</small></div><span class="online"><i></i> READY</span></div>
+        <form id="generator">
+          <label for="business">What type of business do you run? <em>*</em></label>
+          <input id="business" required placeholder="e.g. Hair salon, plumber, online shop">
+          <label for="audience">Who are your customers?</label>
+          <input id="audience" placeholder="e.g. Local families, young professionals">
+          <label for="goal">What do you want to create? <em>*</em></label>
+          <textarea id="goal" required rows="3" placeholder="e.g. Write a Facebook post to promote our winter offer..."></textarea>
+          <div class="two-fields"><div><label for="tone">Tone of voice</label><select id="tone"><option>Professional and approachable</option><option>Friendly and informal</option><option>Confident and persuasive</option><option>Luxury and premium</option></select></div><div><label for="language">Language</label><select id="language"><option>Nederlands</option><option>English</option><option>Français</option><option>Deutsch</option></select></div></div>
+          <button class="generate-btn" id="generate" type="submit">Generate my content <span>✦</span></button>
+        </form>
+        <div class="result-wrap" id="resultWrap" hidden><div class="result-title">YOUR GENERATED CONTENT</div><div id="result" class="result"></div><button id="copy" class="copy-btn" type="button">Copy text</button></div>
+        <p class="fine-print">AI-generated content should be checked before publishing.</p>
+      </div>
+    </section>
+
+    <section class="closing" id="how"><div class="eyebrow">LESS FRICTION. MORE FORWARD.</div><h2>Make room for the work<br>that really matters.</h2><p>BusinessPilot AI is being built to make useful AI accessible to everyday entrepreneurs.</p><a class="primary-btn" href="#assistant">Try the first tool <span>→</span></a></section>
+  </main>
+  <footer><a class="brand" href="#"><span class="brand-icon">✦</span><span>BusinessPilot<span class="blue"> AI</span></span></a><span>© <span id="year"></span> BusinessPilot AI. All rights reserved.</span><span class="footer-note">An independent AI tools platform.</span></footer>
+  <script src="/app.js"></script>
+</body>
+</html>
